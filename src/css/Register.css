@@ -1,0 +1,29 @@
+
+.register > .content{
+    margin: 5rem 0rem;
+    justify-content: center;
+}
+.register > .content{
+    display: flex;
+}
+
+.register > .content >  .illustrator{
+    width: 60%;
+    
+}
+
+.register > .content > .login-form {
+    width: 30%;
+}
+.card{
+    background-color: white;
+    border-radius: 1em;
+    padding: 2rem;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.register-form{
+    width: 550px;;
+    margin-top: 2rem;
+}

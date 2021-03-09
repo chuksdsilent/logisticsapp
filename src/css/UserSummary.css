@@ -1,0 +1,24 @@
+
+.order-detail > .app-card > table > tr > th{
+    border: 1px solid black;
+    padding: .8rem .5rem;
+}
+
+
+@media only screen and (max-width: 400px) {
+  
+.user-summary > .main-content{
+    padding: 7rem 1rem 4rem 1rem;
+    width: 100%;
+       
+}
+
+.user-summary > .main-content > .user-summary-container > .user-rider-info{
+    display: flex;
+    flex-direction: column;
+       
+}
+.order-detail > .app-card{
+    min-width: 100%;
+}
+}

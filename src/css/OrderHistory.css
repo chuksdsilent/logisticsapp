@@ -1,0 +1,21 @@
+.order-history > .content > .user-card > .main-content > .user-card > .user-rider-info{
+    flex-direction: column !important;
+}
+.app-card{
+    margin: .5rem 0rem;
+}
+.app-card > .user-info-content > .card-head{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0rem;
+
+}
+.app-card > .user-info-content > .card-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0rem;
+}
+.app-card > .user-info-content > .status{
+    margin: .5rem 0rem 0rem 0rem;
+}
+

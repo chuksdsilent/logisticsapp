@@ -1,0 +1,41 @@
+.user-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem 1rem 5rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+.user-header > .app-heade{
+    flex-grow: 1;
+}
+.user{
+    cursor: pointer;
+}
+.user > .MuiSvgIcon-root{
+    margin-right: .3rem;
+}
+
+.user-header > .MuiIconButton-root{
+    display: none
+}
+@media only screen and (max-width: 400px) {
+  
+    .user-header {
+        padding-left: 1rem;
+    }
+  
+    .user{
+        display: none;
+    }
+    .user-header{
+        min-width: 100%;
+        padding: 1rem 2rem;
+    }
+    .user-header > .MuiIconButton-root{
+        cursor: pointer;
+        display: block !important;
+         padding: 0rem;
+        margin: 0rem;
+    }
+    
+}

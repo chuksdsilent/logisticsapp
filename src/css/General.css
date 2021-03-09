@@ -1,0 +1,42 @@
+
+.user-card > .main-content{
+    padding: 4rem 4rem 4rem 20rem;
+    width: 100%;
+       
+}
+.user-card > .main-content > .user-card > .user-rider-info{
+    display: flex;
+       
+}
+.user-card > .main-content > .user-card > .user-rider-info > .app-card > .sidbar-container{
+    display: flex;
+    align-items: center;
+}
+
+.user-card > .main-content > .user-card > .user-rider-info > .app-card{
+    min-width: 5rem;
+    margin-right: 1rem;
+    display: flex;
+    border-radius: 0 !important;
+}
+.user-card > .main-content > .user-card > .user-rider-info > .app-card >  .user-info-content{
+     padding: 0rem 1rem;
+     font-size: 14px;
+
+}
+
+
+@media only screen and (max-width: 400px) {
+  
+    .user-card > .main-content{
+        padding: 7rem 1rem 4rem 1rem;
+        width: 100%;
+        
+    }
+
+    .user-card > .main-content > .user-card-container > .user-rider-info{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

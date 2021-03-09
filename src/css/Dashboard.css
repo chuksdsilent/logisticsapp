@@ -1,0 +1,60 @@
+.dashboard > .content > .main-content {
+    padding: 7rem 15rem
+}
+
+.dashboard > .content > .main-content .cont{
+    font-size: 1.5rem;
+    margin-top: .2rem;
+}
+.card-icon > .MuiSvgIcon-root{
+    font-size: 60px;
+}
+.dashboard-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-item-container > div > .app-card{
+        width: 15rem !important;
+    }
+.main-content > div > .app-card{
+        width: 15rem !important;
+    }
+.dashboard-item-container  > a{
+    width: 15rem;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.dashboard-link  > a > div > .app-card{
+    width: 15rem;
+}
+
+.dashboard-link  > a{
+    width: 15rem;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.dashboard-item-container  > a{
+    width: 15rem;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+@media only screen and (max-width: 400px) {
+    .dashboard > .content > .main-content{
+        padding:  7rem 1rem 4rem 1rem;
+        width: 100%;
+    }   
+    .dashboard > .content > .main-content > .app-card{
+        width: 100% !important;
+    }
+    .dashboard-item-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .dashboard-item-container > div > .app-card{
+        width: 100%;
+    }
+}

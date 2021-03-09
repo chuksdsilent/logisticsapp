@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --primary-color: #347cc4;
+  --secondary-color: #ffffff;
+}
+body{
+  background-color: #aa3535;
+}
+.primary-color{
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+.input-control{
+  margin: .8rem 0rem;
+  padding: .3rem 1rem;
+  border-radius: 1em;
+  border: 2px solid var(--primary-color);
+  
+  /* border-width: 0; */
+  height: 1.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.border-radius{
+  border-radius: 2rem !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+btn-block{
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn{
+  font-size: 16px;
+  padding: .7em 3em;
+  border: 0px;
+  border-radius: 1em;
+  font-weight: bolder;
+}
+.form-group-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  
+}
+
+*:focus {
+    outline: none;
+}
+.btn-block{
+  display: block;
+  width: 100%;
+}
+.app-card{
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem 0rem;
+    box-shadow: -1px 0px 9px 2px rgba(196,187,187,0.75);
+-webkit-box-shadow: -1px 0px 9px 2px rgba(196,187,187,0.75);
+-moz-box-shadow: -1px 0px 9px 2px rgba(196,187,187,0.75);
+}
+
+.input-line{
+    border: 2px solid var(--primary-color);
+    border-radius: 2em !important;
+    padding: .5rem;
+    display: flex;
+}
+.input-line > .MuiSvgIcon-root{
+  margin-right: .5rem;
+}
+input[type=text], input[type=password]{
+  
+    border: 0;
+    
+}
+.form-control{
+  padding: 0rem !important;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+select,
+.uneditable-input:focus {   
+  
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.user-header{
+    position: fixed;
+    width: 100% !important;
+    z-index: 100;
+}
+
+.user-pay {
+  display: flex;
+  justify-content: space-around;
+}
+.user-pay > a{
+  background-color: var(--primary-color);
+  padding: .5rem 1rem;
+  color: white;
+  text-decoration: none;
+  margin: 1rem 0rem;
+}
+.user-pay > a:hover{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiIconButton-root{
+  padding: 0px !important;
+  margin: 0px !important;
 }
